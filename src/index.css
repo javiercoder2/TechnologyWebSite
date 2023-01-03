@@ -1,13 +1,26 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --font-family: 'Manrope', sans-serif;
+
+  --gradient-text: linear-gradient(89.97deg, #fae439d8 1.84%, #f46767 102.67%);
+  --gradient-bar: linear-gradient(103.22deg, #f61919 -13.86%, #F49867 99.55%);
+  
+  --color-bg:
+
+  background:-webkit-radial-gradient(ellipse at 50% 50%,rgb(254, 52, 21) 1%, rgba(252, 42, 0, 0.65) 92%);
+  
+    background:-webkit-radial-gradient(ellipse at 50% 50%,rgb(254, 52, 21) 1%,rgba(252, 42, 0, 0.65) 92%);
+
+    background:-o-radial-gradient(ellipse at 50% 50%, rgb(254, 52, 21) 1%,rgba(252, 42, 0, 0.65) 92%);
+
+    background:-ms-radial-gradient(ellipse at 50% 50%,#fe3415 1%,rgba(252, 42, 0, 0.65) 92%);
+
+    background:radial-gradient(ellipse at 50% 50%,rgb(253, 76, 0) 9%,rgba(181, 30, 0, 0.969) 92%);
+  
+    --color-footer : #730202ca;
+    --color-blog: #fc7b09;
+    --color-text: #81AFDD;
+    --color-subtext: #FF8A71;
+
 }
